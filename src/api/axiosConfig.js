@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:3500/api",
+  baseURL: "https://solebackend.onrender.com/api",
 });
 
 API.interceptors.request.use((req) => {
